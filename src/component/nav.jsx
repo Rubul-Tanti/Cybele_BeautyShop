@@ -2,7 +2,7 @@ import React from 'react'
 import shoplogo from"../assets/footerlogo.png"
 export const Nav = () => {
   return(
-    <nav className='w-full flex flex-row sticky top-0 z-10 h-16 bg-black justify-between'>
+    <nav className='w-full flex flex-row sticky top-0 z-10 h-20 bg-black justify-between'>
       <div className=' lg:[90px] lg:pt-5 w-24  flex  justify-center items-center h-full'>
         <img className='lg:w-full w-20'  src={shoplogo}/>
      </div>

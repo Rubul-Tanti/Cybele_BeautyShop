@@ -8,7 +8,7 @@ import { FaTiktok } from "react-icons/fa";
 export const Socialmedia = () => {
   return (
     <div className=' bg-gradient-to-tl w-full from-black h-full bg-pink-950 to-pink-950 flex gap-5 p-5 flex-col'>
-      <h1 className='text-5xl text-shadow-2xs text-shadow-pink-500 text-pink-400  '>Contact us.</h1>
+      <h1 className='text-5xl text-shadow-2xs text-shadow-pink-500 text-pink-600  '>Contact <span className='text-white'>us.</span> </h1>
       <div className='flex flex-row flex-wrap justify-start space-x-10'>
       <div>
         <div className='flex flex-col  h-24 items-center flex-wrap wrap-anywhere w-full lg:w-24'>

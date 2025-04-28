@@ -16,7 +16,7 @@ export const App = () => {
   });
 
   return (
-    <main className='bg-black '>
+    <main className=''>
       <div class="custom-cursor" id="cursor"></div>
       <Nav/>
       <Hero/>

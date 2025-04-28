@@ -5,9 +5,9 @@ import { IoCallOutline } from "react-icons/io5";
 import { CiMail } from "react-icons/ci";
 export const Footer = () => {
   return (
-    <div  className='bg-gradient-to-b gap-2 grid grid-rows-2 lg:grid-cols-2 p-2 items-start justify-start lg:justify-center lg:items-center from-black to-pink-950 
-    h-full
-    lg:h-screen'>
+    <div  className='bg-gradient-to-b gap-2 grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-2 p-2 items-start justify-start lg:justify-center lg:items-center from-black to-pink-950
+    h-max
+    '>
       <div className=''>
         <img className='w-50' src={footerlogo}/>
         <p className='text-gray-400'>Cybele Beauty Shop is one of Nigerians Leading cosmetics brand, we not only stock our extremely amazing products, we deal on both local and international cosmetics brands to satisfy all our customers needs</p>
