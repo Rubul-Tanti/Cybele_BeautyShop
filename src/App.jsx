@@ -8,16 +8,10 @@ import { Socialmedia } from './component/socialmedia'
 import { Footer } from './component/footer'
 
 export const App = () => {
-  const cursor = document.getElementById('cursor');
 
-  document.addEventListener('mousemove', (e) => {
-    cursor.style.left = `${e.pageX}px`;
-    cursor.style.top = `${e.pageY}px`;
-  });
 
   return (
     <main className=''>
-      <div class="custom-cursor" id="cursor"></div>
       <Nav/>
       <Hero/>
       <Product/>
