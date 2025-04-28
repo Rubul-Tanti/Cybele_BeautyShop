@@ -1,0 +1,24 @@
+@import "tailwindcss";
+.logo{
+  font-family:GPS Didot;
+}
+body {
+  cursor: none; /* Hide default cursor */
+}
+.custom-cursor {
+  width: 20px;
+  height: 20px;
+  background:transparent;
+  border:1px solid rgb(216, 83, 105);
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: background 1s ease;
+  z-index: 9999;
+  animation-delay: 1s;
+}
+
+*{
+  font-family:Poppins ;
+}
